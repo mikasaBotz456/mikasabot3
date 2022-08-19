@@ -1,1 +1,1 @@
-`worker: node . --db 'worker: node . --db 'mongodb+srv://nazuaf:fauzan@cluster0.qnibdrb.mongodb.net/?retryWrites=true&w=majority'`
+ worker: node . --db 'mongodb+srv://nazuaf:fauzan@cluster0.qnibdrb.mongodb.net/?retryWrites=true&w=majority'
