@@ -4475,7 +4475,7 @@ if(db.data.users[m.sender].limit < 1) return alpha.send2ButMes(m.chat, lang.Noli
 4. ${prefix}foliokanan
 
 Contoh:
-${prefix}nuliskiri jangan lupa follow @arrhmdfauzan_
+${prefix}nuliskiri Jangan Lupa Follow @arrhmdfauzan_
             break
         case 'nuliskiri': {
 if(db.data.settings[botNumber].userRegister && !db.data.users[m.sender].registered) return reply(lang.needReg(pushname, botname, prefix))
