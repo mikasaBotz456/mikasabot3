@@ -2470,7 +2470,7 @@ break
 case 'china': case 'indonesia': case 'malaysia': case 'thailand': case 'korea': case 'japan': case 'vietnam': case 'jenni': case 'jiso': case 'lisa': case 'rose': {
 	if(db.data.settings[botNumber].userRegister && !db.data.users[m.sender].registered) return reply(lang.needReg(pushname, botname, prefix))
 if(db.data.users[m.sender].limit < 1) return alpha.send2ButMes(m.chat, lang.Nolimit(prefix), `© ${ownername}`, `daily`, `👉 Daily`, `weekly`, `Weekly 👈`, m)
-let to = await (global.api('alfa', '/api/cecan/'+command, {}, 'https://api.zeeoneofc.xyz/cecan'))
+let to = await (global.api('alfa', '/api/cecan/'+command, {}, 'apikey'))
 reply(lang.wait())
 await sendFileFromUrl(from, to, lang.ok(), m)
 .catch((err) => {
